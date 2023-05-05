@@ -10,7 +10,7 @@ import static org.openqa.selenium.Keys.ENTER;
 
 public class Vidosik {
     public static void main(String[] args) throws InterruptedException  {
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Selenium\\chromedriver.exe");
+        System.setProperty("Webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://uhomki.com.ua/");

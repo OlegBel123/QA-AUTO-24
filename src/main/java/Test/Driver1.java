@@ -22,7 +22,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-public class Driver {
+public class Driver1 {
     public static void main(String[] args) throws InterruptedException, ZeroValID, ZeroValTagName,
             ZeroValClass, ZeroValName,ZeroValGetText {
         System.setProperty("Webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");

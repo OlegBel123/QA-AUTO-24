@@ -16,7 +16,7 @@ public class SelectorsClass {
     public static void main(String[] args) throws InterruptedException {
         //Для работы с дропдаунами необходимо создать объект класса Select
         //для получения возможности работаь с его методами
-        System.setProperty("webdriver.chrome.driver", "C:\\sele\\chromedriver.exe");
+        System.setProperty("Webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://ktokuda.net/");

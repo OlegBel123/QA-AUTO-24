@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class DesriptorExample {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\sele\\chromedriver.exe");
+        System.setProperty("Webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://uhomki.com.ua/ru/");
